@@ -37,10 +37,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'users',
     'stock',
-    'api',
     'rest_framework',
-    ]
+    'api',
+
+]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -84,16 +86,9 @@ DATABASES = {
         'USER':'postgres.creibsbzmowhdoweorps',
         'PASSWORD' : 'funchixkre#'
 
+      
     }
 }
-
-
-
-
-
-
-
-
 
 
 # Password validation
